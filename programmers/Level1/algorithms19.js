@@ -1,6 +1,7 @@
 /*
 
 소수찾기
+
 https://programmers.co.kr/learn/courses/30/lessons/12921
 
 */
@@ -20,5 +21,7 @@ function solution(n) {
   }
   return primes.filter((e) => e !== 0).length;
 }
+
+
 
 console.log(solution(10));
