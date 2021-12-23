@@ -1,6 +1,11 @@
 "use strict";
+/*
 
-// https://programmers.co.kr/learn/courses/30/lessons/77484
+로또의 최고 순위와 최저순위
+ https://programmers.co.kr/learn/courses/30/lessons/77484
+ 
+*/
+
 
 function solution(lottos, win_nums) {
   let answer = [];
