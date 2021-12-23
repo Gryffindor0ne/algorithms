@@ -5,6 +5,7 @@ https://programmers.co.kr/learn/courses/30/lessons/67256
 
 */
 
+
 function solution(numbers, hand) {
   // numbers 1,4,7 이면 L
   // numbers 3,6,9 이면 R
