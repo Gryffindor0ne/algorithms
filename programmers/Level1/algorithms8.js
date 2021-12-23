@@ -1,4 +1,10 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42889
+/*
+
+실패율
+
+https://programmers.co.kr/learn/courses/30/lessons/42889
+
+*/
 
 function solution(N, stages) {
   let rate = [];
@@ -21,6 +27,7 @@ function solution(N, stages) {
 
   return rateList;
 }
+
 
 console.log(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]));
 console.log(solution(4, [4, 4, 4, 4, 4]));
