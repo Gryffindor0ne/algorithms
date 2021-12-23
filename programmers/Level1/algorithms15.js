@@ -21,6 +21,7 @@ function solution(sizes) {
   return maxRow * maxCol;
 }
 
+
 console.log(
   solution([
     [14, 4],
