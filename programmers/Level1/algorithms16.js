@@ -1,9 +1,12 @@
 /*
 
 비밀지도
+
 https://programmers.co.kr/learn/courses/30/lessons/17681
 
 */
+
+
 function solution(n, arr1, arr2) {
   // arr1, arr2의 인자를 이진법으로 변환한다.
   // 변환된 수가 n의 길이보다 짧으면 0으로 채운다. (앞쪽)
