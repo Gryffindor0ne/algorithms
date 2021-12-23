@@ -1,5 +1,10 @@
-//
-//https://programmers.co.kr/learn/courses/30/lessons/72410
+/*
+
+신규 아이디 추천
+
+https://programmers.co.kr/learn/courses/30/lessons/72410
+
+*/
 
 function solution(new_id) {
   let answer = "";
@@ -47,6 +52,7 @@ function solution(new_id) {
   answer = new_id.join("");
   return answer;
 }
+
 
 console.log(solution("...!@BaT#*..y.abcdefghijklm"));
 console.log(solution("z-+.^."));
