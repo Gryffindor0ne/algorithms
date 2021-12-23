@@ -1,6 +1,10 @@
-"use strict";
+/*
 
-//https://programmers.co.kr/learn/courses/30/lessons/42862
+체육복
+
+https://programmers.co.kr/learn/courses/30/lessons/42862
+
+*/
 
 function solution(n, lost, reserve) {
   // lost, reserve 둘다 있으면 둘다 삭제.
@@ -33,6 +37,7 @@ function solution(n, lost, reserve) {
 
   return n - lost.length;
 }
+
 
 console.log(solution(5, [2, 4], [1, 3, 5]));
 console.log(solution(5, [2, 4], [3]));
