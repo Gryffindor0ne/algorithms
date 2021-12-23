@@ -1,6 +1,7 @@
 /*
 
 최대공약수와 최소공배수
+
 https://programmers.co.kr/learn/courses/30/lessons/12940
 
 */
@@ -50,5 +51,8 @@ function solution(n, m) {
 
   return [maxDivisor, minMultiple];
 }
+
+
+
 console.log(solution(3, 12));
 console.log(solution(2, 5));
