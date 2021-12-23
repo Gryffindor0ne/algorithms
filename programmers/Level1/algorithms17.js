@@ -1,9 +1,11 @@
 /*
 
 다트게임
+
 https://programmers.co.kr/learn/courses/30/lessons/17682
 
 */
+
 function solution(dartResult) {
   // dartResult를 구분하는 것
 
@@ -48,6 +50,7 @@ function solution(dartResult) {
 
   return result;
 }
+
 
 console.log(solution("1S2D*3T"));
 console.log(solution("1T2D3D#"));
