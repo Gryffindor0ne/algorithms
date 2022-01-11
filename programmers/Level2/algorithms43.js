@@ -8,6 +8,7 @@
 
  기본테스트는 통과하는데 ...
  정확성, 효율성 테스트에서 거의 실패 ㅜ
+ right까지만 있으면 되니까 마지막 합칠때를 수정했는데도 오래걸림.
 
 function solution(n, left, right) {
   if (n === 1) return [1];
@@ -29,6 +30,8 @@ function solution(n, left, right) {
 }
 
 */
+
+// -> left부터 right 까지만 구하면 된다!
 
 function solution(n, left, right) {
   const result = [];
