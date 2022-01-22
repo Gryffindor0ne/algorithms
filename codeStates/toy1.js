@@ -23,6 +23,8 @@ orderOfPresentation
 ex) N = 3일경우, [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 */
 
+// 주어진 배열을 순회하면서 열외사항의 경우의 수를 제거한다.
+
 function orderOfPresentation(N, K) {
   const fac = (num) => {
     return num < 2 ? 1 : num * fac(num - 1);
