@@ -13,6 +13,8 @@ isSubsetOf
 
 */
 
+// 레퍼런스 참고해서 품
+
 const isSubsetOf = function (base, sample) {
   base.sort((a, b) => a - b);
   sample.sort((a, b) => a - b);
